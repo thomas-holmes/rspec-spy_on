@@ -9,3 +9,6 @@ when nil, false, ''
 else
   gem 'rspec', version
 end
+
+# mime-types 2 is not compatible on ruby 1.8 so an old version is specified.
+gem 'mime-types', '~> 1.0'
