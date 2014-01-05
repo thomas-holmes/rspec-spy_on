@@ -2,3 +2,5 @@
 --exclude features
 --markup markdown
 --template-path yard/template
+-
+README.md
