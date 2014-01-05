@@ -1,0 +1,16 @@
+script: "bin/rake --trace 2>&1"
+bundler_args: "--binstubs --without documentation"
+before_install:
+  - gem update --system 2.1.11
+  - gem --version
+  - gem install bundler
+rvm:
+  - 1.8.7
+  - 1.9.2
+  - 1.9.3
+  - 2.0.0
+  - 2.1.0
+env:
+  - RSPEC_VERSION=2.14.0
+  - RSPEC_VERSION=2.99.0.beta1
+  - RSPEC_VERSION=3.0.0.beta1
