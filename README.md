@@ -1,4 +1,4 @@
-# Rspec::SpyOn
+# Rspec::SpyOn [![Build Status](https://travis-ci.org/thomas-holmes/rspec-spy_on.png?branch=master)](https://travis-ci.org/thomas-holmes/rspec-spy_on)
 
 RSpec::SpyOn allows easier setup of test spies through the use of the `spy_on` method
 
