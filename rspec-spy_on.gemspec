@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["thomas@holmes.io"]
   spec.description   = %q{Use test spies more easily with the `spy_on` method}
   spec.summary       = spec.description
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/thomas-holmes/rspec-spy_on"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
