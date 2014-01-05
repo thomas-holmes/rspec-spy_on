@@ -16,4 +16,3 @@ Gemfile-custom
 bundle
 .rbx
 .rspec-local
-yard
