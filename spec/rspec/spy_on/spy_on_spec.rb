@@ -1,4 +1,4 @@
-require 'rspec/spy_on'
+require 'spec_helper'
 
 describe '#spy_on' do
   context RSpec::Mocks::TestDouble do
